@@ -1,24 +1,23 @@
 import os
-from time import sleep
 
 def limpar_terminal():
     os.system('cls')
 
-def adiçao():
+def adicao():
     limpar_terminal()
     num1 = float(input("Digite um o primeiro numero..: "))
     num2 = float(input(f"Digite quanto você quer adicionar a {num1}..: "))
     dif = num1 + num2
     print (f"{num1} + {num2} = {dif}")
 
-def subtraçao():
+def subtracao():
     limpar_terminal()
     num1 = float(input("Digite um o primeiro numero..: "))
     num2 = float(input(f"Digite quanto você quer tirar de {num1}..: "))
     dif = num1 - num2
     print (f"{num1} - {num2} = {dif}")
 
-def multiplicaçao():
+def multiplicacao():
     limpar_terminal()
     num1 = float(input("Digite um o primeiro numero..: "))
     num2 = float(input(f"Digite quanto você quer multiplicar {num1}..: "))
